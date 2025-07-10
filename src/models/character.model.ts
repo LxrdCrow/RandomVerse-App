@@ -1,4 +1,4 @@
-// building character model
+// character model building
 
 import { faker } from '@faker-js/faker';
 

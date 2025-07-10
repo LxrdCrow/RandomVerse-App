@@ -33,8 +33,8 @@ src/
     index.ts
     server.ts
 
-.env
-README.md
 
 
 ### Work in progress
+
+Structure of models and fixing

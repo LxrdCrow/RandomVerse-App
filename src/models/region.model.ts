@@ -1,4 +1,4 @@
-//region building model
+// region building model
 
 import { faker } from '@faker-js/faker';
 

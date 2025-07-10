@@ -1,4 +1,4 @@
-//creature building model
+// creature building model
 
 import { faker } from '@faker-js/faker';
 
