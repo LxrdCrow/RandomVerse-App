@@ -14,13 +14,13 @@
 
 src/
     /models
-        - world.model.ts :check
-        - character.model.ts
-        - region.model.ts
-        - creature.model.ts
-        - item.model.ts
-        - quest.model.ts
-        - event.model.ts
+        world.model.ts 
+        character.model.ts
+        region.model.ts
+        creature.model.ts
+        item.model.ts
+        quest.model.ts
+        event.model.ts
 
 
     /controllers
