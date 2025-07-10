@@ -14,6 +14,7 @@
 
 src/
     /models
+    
         world.model.ts 
         character.model.ts
         region.model.ts
