@@ -10,29 +10,30 @@
 ## Repository
 
 
-/database
+    database/
 
-src/
-    /models
-    
-        world.model.ts 
-        character.model.ts
-        region.model.ts
-        creature.model.ts
-        item.model.ts
-        quest.model.ts
-        event.model.ts
+    src/
+
+        models/
+        
+            world.model.ts 
+            character.model.ts
+            region.model.ts
+            creature.model.ts
+            item.model.ts
+            quest.model.ts
+            event.model.ts
 
 
-    /controllers
-    /config
-    /logs
-    /routes
-    /services
-    /utils
+        controllers/
+        config/
+        logs/
+        routes/
+        services/
+        utils/
 
-    index.ts
-    server.ts
+        index.ts
+        server.ts
 
 
 
