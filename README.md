@@ -18,7 +18,8 @@
             db.ts
 
         controllers/
-            WorldController.ts
+            world.controller.ts
+            character.controller.ts
 
         models/
         
@@ -46,10 +47,12 @@
         config/
         logs/
         routes/
-            worldRoute.ts
+            world.route.ts
+            character.route.ts
 
         services/
-            worldService.ts
+            world.service.ts
+            character.service.ts
 
         utils/
 
@@ -62,4 +65,4 @@
 
 ### Work in progress
 
-Next task: build controllers logic and look for bug/error in models
+Next task: build controller-service-route of 'region'
