@@ -22,6 +22,7 @@
             character.controller.ts
 
         models/
+            index.ts
         
             /character
                 character.generator.ts
@@ -65,4 +66,4 @@
 
 ### Work in progress
 
-Next task: build controller-service-route of 'region'
+Next task: build controller-service-route of 'creature'

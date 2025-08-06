@@ -1,6 +1,5 @@
-// src/services/world.service.ts
-import { WorldGenerator, IGeneratedWorld } from '../models/world/world.generator';
-import { WorldModel, IWorld } from '../models/world/world.schema';
+import { WorldGenerator, IGeneratedWorld, WorldModel, IWorld } from '../models';
+
 
 export class WorldService {
   static async createRandomWorld(): Promise<IWorld> {

@@ -1,5 +1,5 @@
-import { CharacterGenerator, IGeneratedCharacter } from "../models/character/character.generator";
-import { CharacterModel, ICharacter } from "../models/character/character.schema";
+import { CharacterGenerator, IGeneratedCharacter, CharacterModel, ICharacter } from '../models';
+
 
 export class CharacterService {
     static async createCharacter(characterData: IGeneratedCharacter): Promise<ICharacter> {
