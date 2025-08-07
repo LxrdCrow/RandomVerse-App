@@ -6,12 +6,7 @@ export class RegionService {
         return region.save();
     }
 
-    static async createRandomRegion(): Promise<IRegion> {
-        const regionData = RegionGenerator.generate();
-        return RegionService.createRegion(regionData);
-    }
-
-    static async createRandomRegions(count: number): Promise<IRegion[]> {
+    static async createRandomRegions(count: number = 1): Promise<IRegion[]> {
         const regionsData = RegionGenerator.generateMany(count);
         return Promise.all(regionsData.map(regionData => RegionService.createRegion(regionData)));
     }

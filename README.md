@@ -66,4 +66,4 @@
 
 ### Work in progress
 
-Next task: build controller-service-route of 'creature'
+Next task: build controller-service-route of 'item'

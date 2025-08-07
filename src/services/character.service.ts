@@ -25,7 +25,7 @@ export class CharacterService {
         return CharacterModel.findByIdAndUpdate(characterId, characterData, { new: true }).exec();
     }
 
-    static async deleteCharacterbyId(characterId: string): Promise<ICharacter | null> {
+    static async deleteCharacterById(characterId: string): Promise<ICharacter | null> {
         return CharacterModel.findByIdAndDelete(characterId).exec();
     }
 

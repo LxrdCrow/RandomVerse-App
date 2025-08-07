@@ -37,7 +37,7 @@ export class RegionController {
     } catch (err) {
       next(err);
     }
-  };
-}
+  }
+};
 
 
