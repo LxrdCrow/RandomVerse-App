@@ -20,6 +20,8 @@
         controllers/
             world.controller.ts
             character.controller.ts
+            creature.controller.ts
+            region.controller.ts
 
         models/
             index.ts
@@ -46,20 +48,25 @@
                 world.schema.ts
             
         config/
+
         logs/
+        
         routes/
-            world.route.ts
-            character.route.ts
+            world.routes.ts
+            character.routes.ts
+            creature.routes.ts
+            region.routes.ts
 
         services/
             world.service.ts
             character.service.ts
+            creature.service.ts
+            region.service.ts
 
         utils/
 
         index.ts
         server.ts
-        .env
         .gitignore
 
 
