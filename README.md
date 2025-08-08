@@ -22,6 +22,7 @@
             character.controller.ts
             creature.controller.ts
             region.controller.ts
+            item.controller.ts
 
         models/
             index.ts
@@ -56,12 +57,14 @@
             character.routes.ts
             creature.routes.ts
             region.routes.ts
+            item.routes.ts
 
         services/
             world.service.ts
             character.service.ts
             creature.service.ts
             region.service.ts
+            item.service.ts
 
         utils/
 
@@ -73,4 +76,4 @@
 
 ### Work in progress
 
-Next task: build controller-service-route of 'item'
+Next task: build controller-service-route of 'quest'

@@ -1,4 +1,3 @@
-// src/controllers/CharacterController.ts
 import { Request, Response, NextFunction, RequestHandler } from 'express';
 import { CharacterService } from '../services/character.service';
 
