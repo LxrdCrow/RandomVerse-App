@@ -51,7 +51,7 @@
         config/
             env.ts
             gameConfig.ts
-            logger.ts
+            logger.ts //optional
 
         logs/
         
@@ -70,6 +70,18 @@
             item.service.ts
 
         utils/
+            middleware/
+                asyncHandler.ts
+                errorHandler.ts
+                requestId.ts //optional
+            
+            errors/
+                AppError.ts
+            
+            helpers/
+                pagination.ts
+                random.ts
+                seedHelpers.ts //optional
 
         index.ts
         server.ts
@@ -79,4 +91,4 @@
 
 ### Work in progress
 
-Next task: check quest logic for bug, add config
+Next task: build utils logic (middleware, errors, helpers), look for logger.ts in config, check for bug 
