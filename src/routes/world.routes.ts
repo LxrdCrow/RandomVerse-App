@@ -1,4 +1,3 @@
-// src/routes/world.routes.ts
 import { Router } from 'express';
 import { WorldController } from '../controllers/world.controller';
 

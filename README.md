@@ -49,6 +49,9 @@
                 world.schema.ts
             
         config/
+            env.ts
+            gameConfig.ts
+            logger.ts
 
         logs/
         
@@ -76,4 +79,4 @@
 
 ### Work in progress
 
-Next task: build controller-service-route of 'quest'
+Next task: check quest logic for bug, add config

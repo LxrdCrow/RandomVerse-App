@@ -1,4 +1,3 @@
-// src/routes/region.route.ts
 import { Router } from 'express';
 import { RegionController } from '../controllers/region.controller';
 
