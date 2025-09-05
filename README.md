@@ -51,9 +51,7 @@
         config/
             env.ts
             gameConfig.ts
-            logger.ts //optional
 
-        logs/
         
         routes/
             world.routes.ts
@@ -73,7 +71,7 @@
             middleware/
                 asyncHandler.ts
                 errorHandler.ts
-                requestId.ts //optional
+                requestId.ts 
             
             errors/
                 AppError.ts
@@ -81,14 +79,14 @@
             helpers/
                 pagination.ts
                 random.ts
-                seedHelpers.ts //optional
+            
+            index.ts
 
-        index.ts
-        server.ts
-        .gitignore
+    index.ts
+    server.ts
+    .gitignore
 
 
 
-### Work in progress
 
-Next task: build utils logic (middleware, errors, helpers), look for logger.ts in config, check for bug 
+
